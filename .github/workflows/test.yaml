@@ -3,8 +3,8 @@ on: push
 
 
 jobs: 
-    echo-hello:
-      runs-on: ubunut-latest
-      steps: 
-        - name: Say hello 
-          run: echo "hello world"
+  echo-hello:
+    runs-on: ubunut-latest
+    steps: 
+      - name: Say hello 
+        run: echo "hello world"
